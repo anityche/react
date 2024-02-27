@@ -8,7 +8,8 @@ import './App.css';
 // import R008LifecycleEx from './component/R008LifecycleEx';
 // import R009Es6 from './component/R009Es6';
 // import R012ClassPrototype from './component/R012ClassPrototype';
-import R013ArrowFunction from './component/R013ArrowFunction';
+// import R013ArrowFunction from './component/R013ArrowFunction';
+import R014ForEach from './component/R014ForEach';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <R008LifecycleEx prop_value='FromApp.js' /> */}
       {/* <R009Es6 /> */}
       {/* <R012ClassPrototype /> */}
-      <R013ArrowFunction />
+      {/* <R013ArrowFunction /> */}
+      <R014ForEach />
     </div>
   );
 }

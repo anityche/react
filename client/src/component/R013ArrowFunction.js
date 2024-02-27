@@ -34,12 +34,13 @@ class R013ArrowFunction extends Component {
 	}
 
 	// this는 R013ArrowFunction를 의미하므로 callback 함수 내부에서는 this에 접근할 수 없다
-	// this_bind 라는 변수에 this를 백업 하고 접근이 가능하다
+	// 하지만 this_bind 라는 변수에 this를 백업 하고 접근이 가능하다
 	Function3() {
 		var this_bind = this;
 		setTimeout(function(){
 			console.log('function3', this_bind.state.num, '. ES5 Callback function noBind');
-			console.log('function3', this.state.arrowFuc);
+			// 콜백 함수 내부에서 this는 window 객체이므로 this 접근시 undefined 에러 발생
+			console.log('function3', this.state.arrowFuc); // error
 		}, 100);
 	}
 
@@ -50,10 +51,10 @@ class R013ArrowFunction extends Component {
 		}.bind(this), 100);
 	}
 
-	// error case
+	// 화살표 함수에서는 this를 bind 하지 않아도 this를 컴포넌트로 사용해 state 변수에 접근할 수 있다
 	Function5 = (num1, num2, num3) => {
 		const num4 = num1+ num2+ num3;
-		setTimeout(function(){
+		setTimeout(()=>{
 			console.log('function5', num4, ' . Arrow Callback function ', this.state.arrowFuc);
 		}, 100);
 	}
