@@ -10,13 +10,14 @@ import './App.css';
 // import R012ClassPrototype from './component/R012ClassPrototype';
 // import R013ArrowFunction from './component/R013ArrowFunction';
 // import R014ForEach from './component/R014ForEach';
-import R015Map from './component/R015Map';
+// import R015Map from './component/R015Map';
+import R016_Jquery from './component/R016_Jquery';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <p>HTML 적용하기</p>
+      <p>CSS 적용하기</p>
       {/* <R003ImportConponent /> */}
       {/* <R004LifecycleEx /> */}
       {/* <R005LifecycleEx /> */}
@@ -27,7 +28,8 @@ function App() {
       {/* <R012ClassPrototype /> */}
       {/* <R013ArrowFunction /> */}
       {/* <R014ForEach /> */}
-      <R015Map />
+      {/* <R015Map /> */}
+      <R016_Jquery />
     </div>
   );
 }
