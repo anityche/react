@@ -11,7 +11,8 @@ import './App.css';
 // import R013ArrowFunction from './component/R013ArrowFunction';
 // import R014ForEach from './component/R014ForEach';
 // import R015Map from './component/R015Map';
-import R016_Jquery from './component/R016_Jquery';
+// import R016_Jquery from './component/R016_Jquery';
+import R017_Props from './component/R017_Props'
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <R013ArrowFunction /> */}
       {/* <R014ForEach /> */}
       {/* <R015Map /> */}
-      <R016_Jquery />
+      {/* <R016_Jquery /> */}
+      <R017_Props props_val="this is props" />
     </div>
   );
 }
