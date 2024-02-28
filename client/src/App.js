@@ -1,3 +1,4 @@
+import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 // import R003ImportConponent from './component/R003ImportConponent';
@@ -12,7 +13,8 @@ import './App.css';
 // import R014ForEach from './component/R014ForEach';
 // import R015Map from './component/R015Map';
 // import R016_Jquery from './component/R016_Jquery';
-import R017_Props from './component/R017_Props'
+// import R017_Props from './component/R017_Props';
+import R018_PropsDatatype from './component/R018_PropsDatatype';
 
 function App() {
   return (
@@ -31,7 +33,15 @@ function App() {
       {/* <R014ForEach /> */}
       {/* <R015Map /> */}
       {/* <R016_Jquery /> */}
-      <R017_Props props_val="this is props" />
+      {/* <R017_Props props_val="this is props" /> */}
+      <R018_PropsDatatype
+        String="react"
+        Number={200}
+        Boolean={1==1}
+        Array={[0, 1, 8]}
+        ObjectJson={{react:"리액트", twohundred:"200"}}
+        Function={console.log("FunctionProps: function!")}
+        />
     </div>
   );
 }
