@@ -1,5 +1,8 @@
 import React, {Component} from "react";
 
+/**
+ * forEach 함수
+ */
 class R014ForEach extends Component {
 	
 	componentDidMount(){

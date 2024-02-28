@@ -9,7 +9,8 @@ import './App.css';
 // import R009Es6 from './component/R009Es6';
 // import R012ClassPrototype from './component/R012ClassPrototype';
 // import R013ArrowFunction from './component/R013ArrowFunction';
-import R014ForEach from './component/R014ForEach';
+// import R014ForEach from './component/R014ForEach';
+import R015Map from './component/R015Map';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <R009Es6 /> */}
       {/* <R012ClassPrototype /> */}
       {/* <R013ArrowFunction /> */}
-      <R014ForEach />
+      {/* <R014ForEach /> */}
+      <R015Map />
     </div>
   );
 }
