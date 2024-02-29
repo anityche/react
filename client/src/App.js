@@ -14,7 +14,8 @@ import './App.css';
 // import R016_Jquery from './component/R016_Jquery';
 // import R017_Props from './component/R017_Props';
 // import R018_PropsDatatype from './component/R018_PropsDatatype';
-import R019_PropsBoolean from './component/R019_PropsBoolean';
+// import R019_PropsBoolean from './component/R019_PropsBoolean';
+import R020_PropsObject from './component/R020_PropsObject';
 
 function App() {
   return (
@@ -42,8 +43,9 @@ function App() {
         ObjectJson={{react:"리액트", twohundred:"200"}}
         Function={console.log("FunctionProps: function!")}
         /> */}
-        <R019_PropsBoolean BooleanTrueFalse={false}/>
-        <R019_PropsBoolean BooleanTrueFalse/> {/* default: true */}
+        {/* <R019_PropsBoolean BooleanTrueFalse={false}/>
+        <R019_PropsBoolean BooleanTrueFalse/> */}
+        <R020_PropsObject ObjectJson={{react:"리액트", twohundred:"200"}} />
     </div>
   );
 }
