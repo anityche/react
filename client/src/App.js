@@ -15,7 +15,10 @@ import './App.css';
 // import R017_Props from './component/R017_Props';
 // import R018_PropsDatatype from './component/R018_PropsDatatype';
 // import R019_PropsBoolean from './component/R019_PropsBoolean';
-import R020_PropsObject from './component/R020_PropsObject';
+// import R020_PropsObject from './component/R020_PropsObject';
+// import R021_PropsRequired from './component/R021_PropsRequired';
+// import R022_PropsDefault from './component/R022_PropsDefault';
+import R023_PropsNode from './component/R023_PropsNode';
 
 function App() {
   return (
@@ -45,7 +48,12 @@ function App() {
         /> */}
         {/* <R019_PropsBoolean BooleanTrueFalse={false}/>
         <R019_PropsBoolean BooleanTrueFalse/> */}
-        <R020_PropsObject ObjectJson={{react:"리액트", twohundred:"200"}} />
+        {/* <R020_PropsObject ObjectJson={{react:"리액트", twohundred:"200"}} /> */}
+        {/* <R021_PropsRequired ReactNumber={200} /> */}
+        {/* <R022_PropsDefault ReactNumber={200} /> */}
+        <R023_PropsNode>
+          <span>node from app.js</span>
+        </R023_PropsNode>
     </div>
   );
 }
