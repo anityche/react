@@ -18,7 +18,9 @@ import './App.css';
 // import R020_PropsObject from './component/R020_PropsObject';
 // import R021_PropsRequired from './component/R021_PropsRequired';
 // import R022_PropsDefault from './component/R022_PropsDefault';
-import R023_PropsNode from './component/R023_PropsNode';
+// import R023_PropsNode from './component/R023_PropsNode';
+// import R024_ReactState from './component/R024_ReactState';
+import R025_ReactSetState from './component/R025_ReactSetState';
 
 function App() {
   return (
@@ -51,9 +53,11 @@ function App() {
         {/* <R020_PropsObject ObjectJson={{react:"리액트", twohundred:"200"}} /> */}
         {/* <R021_PropsRequired ReactNumber={200} /> */}
         {/* <R022_PropsDefault ReactNumber={200} /> */}
-        <R023_PropsNode>
+        {/* <R023_PropsNode>
           <span>node from app.js</span>
-        </R023_PropsNode>
+        </R023_PropsNode> */}
+        {/* <R024_ReactState reactString={"react"} /> */}
+        <R025_ReactSetState/>
     </div>
   );
 }
