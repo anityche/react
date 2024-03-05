@@ -23,7 +23,8 @@ import './App.css';
 // import R025_ReactSetState from './component/R025_ReactSetState';
 // import R026_ForceUpdate from './component/R026_ForceUpdate';
 // import R027_ComponentClass from './component/R027_ComponentClass';
-import R028_PureComponentClass from './component/R028_PureComponentClass';
+// import R028_PureComponentClass from './component/R028_PureComponentClass';
+import R029_ShallowEqual from './component/R029_ShallowEqual';
 
 function App() {
   return (
@@ -63,7 +64,8 @@ function App() {
         {/* <R025_ReactSetState/> */}
         {/* <R026_ForceUpdate /> */}
         {/* <R027_ComponentClass /> */}
-        <R028_PureComponentClass />
+        {/* <R028_PureComponentClass /> */}
+        <R029_ShallowEqual />
     </div>
   );
 }
