@@ -20,7 +20,8 @@ import './App.css';
 // import R022_PropsDefault from './component/R022_PropsDefault';
 // import R023_PropsNode from './component/R023_PropsNode';
 // import R024_ReactState from './component/R024_ReactState';
-import R025_ReactSetState from './component/R025_ReactSetState';
+// import R025_ReactSetState from './component/R025_ReactSetState';
+import R026_ForceUpdate from './component/R026_ForceUpdate';
 
 function App() {
   return (
@@ -57,7 +58,8 @@ function App() {
           <span>node from app.js</span>
         </R023_PropsNode> */}
         {/* <R024_ReactState reactString={"react"} /> */}
-        <R025_ReactSetState/>
+        {/* <R025_ReactSetState/> */}
+        <R026_ForceUpdate />
     </div>
   );
 }
