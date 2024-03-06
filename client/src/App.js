@@ -24,7 +24,8 @@ import './App.css';
 // import R026_ForceUpdate from './component/R026_ForceUpdate';
 // import R027_ComponentClass from './component/R027_ComponentClass';
 // import R028_PureComponentClass from './component/R028_PureComponentClass';
-import R029_ShallowEqual from './component/R029_ShallowEqual';
+// import R029_ShallowEqual from './component/R029_ShallowEqual';
+import R030_FunctionComponent from './component/R030_FunctionComponent';
 
 function App() {
   return (
@@ -65,7 +66,8 @@ function App() {
         {/* <R026_ForceUpdate /> */}
         {/* <R027_ComponentClass /> */}
         {/* <R028_PureComponentClass /> */}
-        <R029_ShallowEqual />
+        {/* <R029_ShallowEqual /> */}
+        <R030_FunctionComponent contents="[this is functionComponent ]" />
     </div>
   );
 }
