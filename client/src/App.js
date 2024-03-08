@@ -25,7 +25,8 @@ import './App.css';
 // import R027_ComponentClass from './component/R027_ComponentClass';
 // import R028_PureComponentClass from './component/R028_PureComponentClass';
 // import R029_ShallowEqual from './component/R029_ShallowEqual';
-import R030_FunctionComponent from './component/R030_FunctionComponent';
+// import R030_FunctionComponent from './component/R030_FunctionComponent';
+import R031_ReactHook from './component/R031_ReactHook';
 
 function App() {
   return (
@@ -67,7 +68,8 @@ function App() {
         {/* <R027_ComponentClass /> */}
         {/* <R028_PureComponentClass /> */}
         {/* <R029_ShallowEqual /> */}
-        <R030_FunctionComponent contents="[this is functionComponent ]" />
+        {/* <R030_FunctionComponent contents="[this is functionComponent ]" /> */}
+        <R031_ReactHook />
     </div>
   );
 }
