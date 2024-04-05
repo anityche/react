@@ -1,10 +1,13 @@
+import Banner from "./components/Banner";
 import Nav from "./components/Nav";
 import styled from "styled-components";
+// import 
 
 const App = () => {
   return (
     <Container>
       <Nav />
+      <Banner />
     </Container>
   );
 }
@@ -16,10 +19,10 @@ const Container = styled.main`
   min-height: calc(100vh - 250px);
   overflow-x: hidden;
   display: block;
-  top: 72px;
+  top: 70px;
   padding: 0 calc(3.5vw + 5px);
 
-  &:after {
+  ::after {
     background: url('/images/home-background.png') center center / cover no-repeat fixed;
     content: '';
     position: absolute;
